@@ -12,7 +12,7 @@ Desenvolver uma base sólida e prática em Python para automatizar tarefas rotin
 - Exercícios
 
 
-## 🛠️ Tecnologias e Ambiente
+## Tecnologias e Ambiente
 - Python 3
 - Linux (Ubuntu)
 - VsCode / Terminal
