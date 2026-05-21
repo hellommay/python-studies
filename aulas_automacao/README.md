@@ -21,5 +21,5 @@ Como o projeto interage com a interface gráfica no Linux, é necessário instal
 # 1. Atualizar o sistema e instalar dependências de GUI para o PyAutoGUI
 sudo apt-get update && sudo apt-get install -y scrot python3-tk python3-dev
 
-# 2. Instalar as bibliotecas do projeto
-pip install pandas pyautogui
+# 2. Instalar as bibliotecas do projeto a partir do arquivo abaixo
+pip install -r requirements.txt
