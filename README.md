@@ -9,10 +9,12 @@ Repositório dedicado aos meus estudos de Python.
 - Estudos de lógica
 - Exercícios
 
-
-## Tecnologias e Ambiente
+## Tecnologias
 - Python 3
 - Linux (Ubuntu)
 - VsCode / Terminal
 - Git & GitHub
 
+## Aprendizado
+
+⚠️ Projeto desenvolvido para estudo e prática utilizando videoaulas, pesquisas e documentação técnica.
