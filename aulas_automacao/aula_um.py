@@ -49,11 +49,18 @@ TEMPO_APOS_LOGIN         = 4    # segundos após clicar em entrar
 TEMPO_APOS_CADASTRO      = 0.5  # segundos após cada produto
 
 # Coordenadas dos campos — ajuste conforme a resolução do seu monitor
-COORD_EMAIL    = (x=64,  y=97 )   # campo e-mail na tela de login
-COORD_CODIGO   = (x=67,  y=118)   # primeiro campo do formulário de produto
+COORD_EMAIL = (64, 97)   # campo e-mail na tela de login
+COORD_CODIGO = (67, 118)   # primeiro campo do formulário de produto
 
 # Colunas obrigatórias no CSV
-COLUNAS_OBRIGATORIAS = ["codigo", "marca", "tipo", "categoria", "preco_unitario", "custo"]
+COLUNAS_OBRIGATORIAS = [
+    "codigo", 
+    "marca", 
+    "tipo", 
+    "categoria", 
+    "preco_unitario", 
+    "custo"
+]
 
 
 # ─────────────────────────────────────────────
