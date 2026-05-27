@@ -1,4 +1,5 @@
 # Python Studies
+![CI](https://github.com/hellommay/python-studies/actions/workflows/ci.yml/badge.svg)
 
 Repositório dedicado aos meus estudos de Python.
 
