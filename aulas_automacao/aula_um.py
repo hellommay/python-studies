@@ -41,12 +41,12 @@ pyag.PAUSE = 0.4
 # 2. CONSTANTES DE CONFIGURAÇÃO
 # ─────────────────────────────────────────────
 
-URL_LOGIN       = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
-EMAIL           = "hellommay@gmail.com"
-SENHA           = "senha1234567"
-TEMPO_CARREGAMENTO_SITE  = 6    # segundos após abrir o navegador
-TEMPO_APOS_LOGIN         = 4    # segundos após clicar em entrar
-TEMPO_APOS_CADASTRO      = 0.5  # segundos após cada produto
+URL_LOGIN = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
+EMAIL = "hellommay@gmail.com"
+SENHA = "senha1234567"
+TEMPO_CARREGAMENTO_SITE = 6    # segundos após abrir o navegador
+TEMPO_APOS_LOGIN = 4    # segundos após clicar em entrar
+TEMPO_APOS_CADASTRO = 0.5  # segundos após cada produto
 
 # Coordenadas dos campos — ajuste conforme a resolução do seu monitor
 COORD_EMAIL = (64, 97)   # campo e-mail na tela de login
@@ -54,11 +54,11 @@ COORD_CODIGO = (67, 118)   # primeiro campo do formulário de produto
 
 # Colunas obrigatórias no CSV
 COLUNAS_OBRIGATORIAS = [
-    "codigo", 
-    "marca", 
-    "tipo", 
-    "categoria", 
-    "preco_unitario", 
+    "codigo",
+    "marca",
+    "tipo",
+    "categoria",
+    "preco_unitario",
     "custo"
 ]
 
@@ -69,10 +69,10 @@ COLUNAS_OBRIGATORIAS = [
 
 @dataclass
 class Resultado:
-    total:      int = 0
-    sucesso:    int = 0
-    falha:      int = 0
-    erros:      list = field(default_factory=list)
+    total: int = 0
+    sucesso: int = 0
+    falha: int = 0
+    erros: list = field(default_factory=list)
 
     def registrar_sucesso(self):
         self.sucesso += 1
