@@ -1,5 +1,5 @@
 # Python Studies
-[![Python CI](https://github.com/hellommay/python-studies/actions/workflows/ci.yml/badge.svg)](https://github.com/hellommay/python-studies/actions/workflows/ci.yml)
+[![Python CI](https://github.com/mayaracsoares/python-studies/actions/workflows/ci.yml/badge.svg)](https://github.com/mayaracsoares/python-studies/actions/workflows/ci.yml)
 
 Repositório dedicado aos meus estudos de Python.
 
